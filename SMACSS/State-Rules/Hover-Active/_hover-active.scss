@@ -1,0 +1,26 @@
+.header{
+    a:hover{
+        color: skyblue;
+    }
+    a:active{
+        color: $color-t;
+    }
+}
+.sunglasses{
+        button:hover{
+            background-color: #77889970;
+        }
+        button:active{
+            background-color: rgb(180, 173, 173);
+            
+        }
+}
+
+.footer{
+    a:hover{
+        color: $color-t;
+    }
+    a:active{
+        color: $color-p;
+    }
+}

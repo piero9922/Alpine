@@ -1,0 +1,43 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+    a{
+        width: 4rem;
+        text-align: end;
+        color: $color-a;
+        i{
+            margin-left: 5px;
+        }
+    }
+    &__information{
+        width: 27%;
+        ul{
+            display: flex;
+            justify-content: flex-end;
+            li{
+                margin: 0 5px;
+                a{
+                    color: $color-a;
+                    span{
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+        }
+    }
+    &__social-networks{
+        ul{
+            display: flex;
+            padding-right: 25px;
+            li{
+                margin-right: 10px;
+                a{
+                    color: $color-a;
+                }
+            }
+        }
+    }
+}

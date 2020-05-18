@@ -1,0 +1,85 @@
+.sunglasses{
+    background-color: #f6f6f6;
+    &__container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        .text{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            .text-container{
+                width: 60%;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h1{
+                    font-size: $size-p;
+                    text-transform: capitalize;
+                    color: $color-p;
+                    font-weight: bold;
+                    height: 3rem;
+                    display: flex;
+                    align-items: flex-end;
+                    span{
+                        font-weight: lighter;
+                    }
+                }
+                p{
+                    height: 9rem;
+                    font-size: $size-s;
+                    line-height: $line;
+                    display: flex;
+                    align-items: flex-end;
+                }
+                form{
+                    width: 10rem;
+                    height: 5rem;
+                    display: flex;
+                    align-items: flex-end;
+                    button{
+                        width: 90%;
+                        height: 60%;
+                        text-transform: uppercase;
+                        border: 1px solid $color-a;
+                        color: $color-a;
+                    }
+                }
+            }
+        }
+    }
+    .products{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 7rem;
+        &__details{
+            width: 19%;
+            display: flex;
+            justify-content: flex-end;
+            a{
+                color: $color-s;
+                i{
+                    margin-right: 5px;
+                }
+            }
+        }
+        &__next{
+            width: 30%;
+            display: flex;
+            align-items: center;
+            i{
+                margin: 0 10px;
+                color: $color-s;
+            }
+            a{
+                font-size: 2.5rem;
+                color: $color-s;
+                i{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

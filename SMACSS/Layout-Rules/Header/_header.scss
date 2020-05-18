@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__icons,
+    &__icons-rigth{
+        width: 10rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        a{
+            color: $color-a;
+            span{
+                color: $color-t;
+            }
+        }
+    }
+}
